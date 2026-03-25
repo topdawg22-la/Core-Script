@@ -1,0 +1,11 @@
+Nexus-Auto-OS/
+├── .github/
+│   ├── PULL_REQUEST_TEMPLATE.md  <-- (Gitmore Standard)
+│   └── ISSUE_TEMPLATE/
+├── drivers/                      <-- Hardware abstraction for Autel/Launch/J2534
+├── modules/
+│   ├── security/                 <-- Metasploit & Wireshark automation
+│   └── diagnostics/              <-- Bi-directional control & ECU coding
+├── docker-compose.yml            <-- One-click deployment
+├── LICENSE                       <-- GNU GPLv3 (The "Open Source" Engine)
+└── README.md                     <-- The Business Pitch & Roadmap
