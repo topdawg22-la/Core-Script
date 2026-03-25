@@ -1,0 +1,11 @@
+"""
+PROJECT: Nexus-Auto-OS
+VERSION: 1.0.0
+ARCHITECT: Gunner Blake Carr
+CREDENTIALS: B.S. Systems Engineering & Software Development | Colorado Technical University
+LICENSE: GNU General Public License v3.0 (GPL-3.0)
+
+DESCRIPTION: 
+A bi-directional diagnostic framework designed for cross-platform 
+interoperability between industrial hardware and consumer tech (Apple/Android).
+"""
