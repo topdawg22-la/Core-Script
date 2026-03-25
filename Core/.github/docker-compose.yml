@@ -1,0 +1,13 @@
+version: '3.8'
+services:
+  nexus-core:
+    image: python:3.10-slim
+    volumes:
+      - .:/app
+    network_mode: "host" # Allows direct access to vehicle CAN interfaces
+    command: python /app/main.py
+
+  security-audit:
+    image: metasploitframework/metasploit-framework
+    network_mode: "host"
+    entrypoint: /usr/src/metasploit-framework/msfconsole
