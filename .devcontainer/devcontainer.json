@@ -1,0 +1,20 @@
+{
+  "name": "Python 3.11 with python-can",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-azuretools.vscode-docker"
+      ]
+    }
+  },
+  "settings": {
+    "python.defaultInterpreterPath": "/usr/local/bin/python"
+  },
+  "forwardPorts": [5000],
+  "postCreateCommand": "python -m pip install --upgrade pip && pip install -r requirements.txt"
+}
